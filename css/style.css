@@ -1,19 +1,40 @@
+html {
+	font-size: 1rem !important;
+}
+
+@include media-breakpoint-up(sm) {
+	html {
+		font-size: 1.2rem !important;
+	}
+}
+
+@include media-breakpoint-up(md) {
+	html {
+		font-size: 1.4rem !important;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	html {
+		font-size: 1.6rem !important;
+	}
+}
+
 .navbar-default {
-    background: #fff !important;
-    border: 0;
-    font-family: Poppins;
+	background: #fff !important;
+	border: 0;
+	font-family: Poppins;
 }
 
 .navbar-brand {
-    font-size: 20px;
-    color: #000 !important;
-    font-weight: bold;
+	font-size: 20px;
+	color: #000 !important;
+	font-weight: bold;
 }
 
 body {
-    background:#fff !important;
-    margin-top: 10px;
-    font-size: 16px;
+	background: #fff !important;
+	font-size: 16px;
 }
 
 h1,
@@ -22,79 +43,86 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Poppins;
+	font-family: Poppins;
 }
 
 p {
-    font-family: Roboto;
+	font-family: Roboto;
 }
 
 #showcase h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
+	font-size: 50px;
+	margin-bottom: 20px;
 }
 
 #showcase img {
-    width: 100%;
-    vertical-align: bottom !important;
-    margin-left: 0px;
+	width: 100%;
+	vertical-align: bottom !important;
+	margin-left: 0px;
 }
 
 #showcase .showcase-right {
-    margin-top: 10px;
+	/*    margin-top: 10px;*/
 }
 
 #testimonial {
-    background: #bdbdbe;
-    padding: 50px 0 30px 0;
-    text-align: center;
-    margin-top: 40px;
+	background: url('../img/bg-texture.jpg');
+	background-size: cover;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	/*    margin-top: 40px;*/
 }
 
 #testimonial p {
-    font-size: 32px;
-    font-family: Josefin Sans;
-    color: #000;
+	font-size: 32px;
+	font-family: Josefin Sans;
+	color: #000;
 }
 
-.container {}
+.vh-100 {
+	min-height: 100vh;
+}
+
+.vh-85 {
+	min-height: 85vh;
+}
 
 #testimonial p.customer {
-    font-size: 20px;
-    color: #666;
+	font-size: 20px;
+	color: #666;
 }
 
-
-
 #info2 {
-    background: #0073bb;
-    color: #bdbdbe;
-    height: 60vh;
-    margin: 20px 0 20px 0;
-    padding-top: 40px;
+	color: #bdbdbe;
+	height: 50vh;
+	padding-top: 40px;
 }
 
 #contact {
-    background: url('../img/image3.png');
-    background-size: cover;
-    padding: 40px;
-    color: #fff;
+	background: url('../img/bg-texture.jpg');
+	background-size: cover;
+	padding: 40px;
+	/*
     border-top: #333 7px solid;
     border-bottom: #333 7px solid;
+*/
 }
 
 footer {
-    padding: 30px;
+	padding: 10px;
+	margin: auto;
 }
 
 #showcase {
-    margin-top: 115px;
+	/*	margin-top: 95px;*/
+	margin-bottom: 20px;
 }
 
 .logo-nav {
-    max-width: 200px;
-    max-height: 125px;
+	max-width: 175px;
+	max-height: 100px;
 }
+
 
 /*
 .navbar-creulab.nav-item {
@@ -105,9 +133,231 @@ footer {
 */
 
 #info1 .info-left {
-    margin-top: 90px;
+	margin-top: 90px;
 }
 
 #referral-form {
-    margin-top:200px;
+	margin-top: 200px;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
+}
+
+.dev-intro {
+	color: whitesmoke;
+	padding: 20px 0 40px 0;
+}
+
+.text-muted {
+	font-size: .75rem !important;
+	margin: 0;
+}
+
+.pricing {
+	padding-top: 20px;
+}
+
+.card-title {
+	color: #000;
+}
+
+.navbar-shadow {
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(126, 141, 133, 1);
+	box-shadow: 0px 5px 10px 0px rgba(126, 141, 133, 1);
+}
+
+.info-icon i {
+	size: 4rem;
+}
+
+.info-text {
+	padding-top: 20px;
+	font-size: 1rem;
+}
+
+.profile {
+	margin-top: 5%;
+	padding-top: 40px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.about-left {
+	padding-top: 25%;
+}
+
+.about-right {
+	padding-top: 25%;
+}
+
+.vh-50 {
+	min-height: 50vh;
+}
+
+.vh-60 {
+	min-height: 60vh;
+}
+
+.vh-75 {
+	min-height: 75vh;
+}
+
+.divider {
+	min-width: 18%;
+	border-top: 2px solid black;
+}
+
+.br-10 {
+	border-radius: 10px;
+}
+
+.wrapper {
+	width: 150px;
+	height: 150px;
+	/*  margin: 25px auto;*/
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+}
+
+.wrapper img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+.mt-6 {
+	margin-top 15% !important;
+	padding-top: 5%;
+}
+
+.info-right img {
+	opacity: .85;
+}
+
+.showcase-left img {
+	opacity: .85;
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+
+/* footer social icons */
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color: #3B5998;
+}
+
+.social-network a.icoPinterest:hover {
+	background-color: #c92228;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+	background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+	background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+	background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoPinterest:hover i {
+	color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+	color: #44BCDD;
+}
+
+
+/*.social-circle li i {*/
+
+.nav-icons a {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	font-size: 16px;
+}
+
+.social-circle li i {
+	margin: 0;
+	line-height: 25px;
+	text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.nav-icons a {
+	background-color: #343a40;
 }

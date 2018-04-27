@@ -37,6 +37,7 @@
 
 html {
     font-family: sans-serif;
+	font-size:1rem;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -47,6 +48,7 @@ html {
 @-ms-viewport {
     width: device-width;
 }
+
 
 article,
 aside,
@@ -445,11 +447,14 @@ h6,
     line-height: 1.2;
 }
 
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+hr.styled {
+    margin:0;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.styled:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
 }
 
 small,
@@ -1490,7 +1495,7 @@ pre code {
 }
 
 .table-bordered {
-    border: 1px solid #dee2e6;
+    border: 2px solid #7e8d85 !important;
 }
 
 .table-bordered th,
@@ -8389,4 +8394,24 @@ a.text-dark:focus {
     .table-bordered td {
         border: 1px solid #ddd !important;
     }
+}
+
+
+
+hr {
+    
+}
+
+footer {
+    
+}
+
+.img-fluid {
+	
+}
+
+
+
+.display-6 {
+	
 }
