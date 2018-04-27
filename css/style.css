@@ -240,14 +240,6 @@ footer {
 	padding-top: 5%;
 }
 
-.info-right img {
-	opacity: .85;
-}
-
-.showcase-left img {
-	opacity: .85;
-}
-
 
 /*=========================
   Icons
@@ -360,4 +352,8 @@ a.socialIcon:hover,
 
 .nav-icons a {
 	background-color: #343a40;
+}
+
+.op-85 {
+	opacity: .85;
 }
