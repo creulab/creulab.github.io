@@ -56,4 +56,5 @@ sr.reveal('.info-mid', {
 sr.reveal('.ease-in', {
 	duration: 2000
 	, easing: 'ease-in'
+	, viewFactor: .5
 })
