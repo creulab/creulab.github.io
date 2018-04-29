@@ -367,6 +367,7 @@ a.socialIcon:hover,
   left: 0;
 /*  z-index: 3;*/
 }
+
+.text-grey {
+	color: #bdbdbe !important;
 }
-
-
