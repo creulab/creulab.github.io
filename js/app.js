@@ -45,7 +45,7 @@ sr.reveal('.info-right', {
 	duration: 2000
 	, origin: 'right'
 	, distance: '300px'
-	, viewFactor: 0.2
+	, viewFactor: .2
 });
 sr.reveal('.info-mid', {
 	duration: 2000
@@ -54,7 +54,7 @@ sr.reveal('.info-mid', {
 	, viewFactor: 0.2
 });
 sr.reveal('.ease-in', {
-	duration: 2000
+	duration: 1000
 	, easing: 'ease-in'
-	, viewFactor: .5
+	, viewFactor: .75
 })

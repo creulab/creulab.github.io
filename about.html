@@ -12,39 +12,41 @@
 </head>
 
 <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-default ease-in"> <img src="img/logo-navbar.png" class="logo-nav" alt="">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item"> <a class="nav-link" href="#showcase">Home <span class="sr-only">(current)</span></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#info1">About Us</a> </li>
-				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="services/webdev.html">Web Development</a> <a class="dropdown-item" href="services/content.html">Content Creation</a> <a class="dropdown-item" href="#">SEO & Marketing</a> </div>
-				</li>
-				<li class="nav-item"> <a class="nav-link" href="#info1">Portfolio</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
-			</ul>
-		</div>
-	</nav>
-	<section class="bg-primary vh-75">
-		<div class="container text-light profile">
-			<h1 class="float-middle ease-in">Meet CreuLab</h1>
+	<div class="container-fluid">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-default ease-in"> <img src="img/logo-navbar.png" class="logo-nav" alt="">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active"> <a class="nav-link" href="#showcase">Home <span class="sr-only">(current)</span></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#info1">About Us</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="services/webdev.html">Web Development</a> <a class="dropdown-item" href="services/content.html">Content Creation</a> <a class="dropdown-item" href="#">SEO & Marketing</a> </div>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="#info1">Portfolio</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<section class="bg-primary text-light vh-50">
+		<div class="container">
+			<h1 class="display-4 showcase-text pt-3">Meet CreuLab</h1>
 			<div class="row">
 				<div class="col-md-6 col-sm-12 align-items-center">
-					<div class="about-left info-left"> <img class="img-fluid img-thumbnail d-block float-left mr-2" src="http://via.placeholder.com/180x180" alt="Lindsay Murtle | Co-Founder, President">
-						<h3 class="float-right text-italic">Lindsay Murtle</h3>
+					<div class="about-left info-left pt-3"> <img class="img-fluid img-thumbnail d-block float-left mr-1 avatar" src="http://via.placeholder.com/180x180" alt="Lindsay Murtle | Co-Founder, President">
+						<h3 class="float-right">Lindsay Murtle</h3>
 						<br>
-						<h6 class=" float-right text-secondary">Co-Founder, President</h6>
+						<h6 class="float-right">Co-Founder, President</h6>
 						<br>
 						<br>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, repudiandae quis laboriosam nulla consectetur ab, expedita rerum modi at nobis, nihil sapiente doloremque placeat incidunt nisi cum aut, ipsa reiciendis?</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-12 align-items-center">
-					<div class="about-right info-right"> <img class="img-fluid img-thumbnail d-block float-right mr-l avatar" src="http://via.placeholder.com/180x180" alt="Lindsay Murtle | Co-Founder, President">
-						<h3 class="float-left text-italic">Ross Murtle</h3>
+					<div class="about-right info-right pt-3"> <img class="img-fluid img-thumbnail d-block float-right mr-l avatar" src="http://via.placeholder.com/180x180" alt="Lindsay Murtle | Co-Founder, President">
+						<h3 class="float-left">Ross Murtle</h3>
 						<br>
-						<h6 class=" float-left text-secondary">Co-Founder, Vice President</h6>
+						<h6 class=" float-left">Co-Founder, Vice President</h6>
 						<br>
 						<br>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, repudiandae quis laboriosam nulla consectetur ab, expedita rerum modi at nobis, nihil sapiente doloremque placeat incidunt nisi cum aut, ipsa reiciendis?</p>
@@ -54,7 +56,7 @@
 		</div>
 	</section>
 	<hr class="styled">
-	<section id="testimonial">
+	<section id="testimonial" class="bg-primary text-dark">
 		<div class="container">
 			<h1 class="float-middle">Our Mission</h1>
 			<div class="divider float-middle mb-2"></div>
@@ -62,6 +64,7 @@
 			<p class="customer">- John Doe</p>
 		</div>
 	</section>
+	<hr class="styled">
 	<footer>
 		<p class="text-center">Copyright &copy;2018 CreuLab, LLC </p>
 	</footer>
