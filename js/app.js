@@ -57,4 +57,11 @@ sr.reveal('.ease-in', {
 	duration: 1000
 	, easing: 'ease-in'
 	, viewFactor: .75
-})
+});
+
+$(function () {
+  $('.help-tip').popover({
+    container: 'body',
+	trigger: 'hover'
+  });
+});
