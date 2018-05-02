@@ -389,3 +389,48 @@ a.socialIcon:hover,
 .text-whitesmoke {
 	color: whitesmoke;
 }
+
+.icon-green i{
+	color: #29bf89;
+	
+}
+.help-tip{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    text-align: center;
+    background-color: #7e8d85;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.35rem;
+    cursor: default;
+	color:white;
+	
+}
+.bg-blu-blur {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('../img/blu-bg.jpeg');
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
