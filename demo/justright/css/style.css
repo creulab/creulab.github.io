@@ -1,0 +1,29 @@
+/* Your custom styles */
+
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+#intro {
+	background: url("../img/jrfc-lobby.jpg")no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+.top-nav-collapse {
+  background-color: #ffb74d;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #e5af02;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #e5af02;
+  }
+}
+       
