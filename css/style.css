@@ -39,6 +39,7 @@ body {
 	background: #fff !important;
 	font-size: 16px;
 	padding-top: 5%;
+	color: #170312 !important;
 }
 
 h1,
@@ -70,17 +71,14 @@ p {
 }
 
 #testimonial {
-	background: url('../img/bg-texture.jpg');
-	background-size: cover;
 	padding: 50px 0 30px 0;
 	text-align: center;
 	/*    margin-top: 40px;*/
 }
 
-#testimonial p {
-	font-size: 32px;
+#testimonial h1 {
 	font-family: Josefin Sans;
-	color: #000;
+	
 }
 
 .vh-100 {
@@ -96,10 +94,13 @@ p {
 	color: #666;
 }
 
+#info2 i {
+	color: #29bf89;
+}
 #info2 {
-	color: #bdbdbe;
 	height: 50vh;
 	padding-top: 40px;
+	color: #BDBDBE;
 }
 
 #contact {
@@ -263,6 +264,9 @@ ul.social-network li {
 
 
 /* footer social icons */
+.social-network a.icoWordpress:hover{
+	background-color:#0073aa;
+}
 
 .social-network a.icoRss:hover {
 	background-color: #F56505;
@@ -292,6 +296,7 @@ ul.social-network li {
 	background-color: #007bb7;
 }
 
+.social-network a.icoWordpress:hover i,
 .social-network a.icoRss:hover i,
 .social-network a.icoFacebook:hover i,
 .social-network a.icoTwitter:hover i,
@@ -352,7 +357,7 @@ a.socialIcon:hover,
 }
 
 .nav-icons a {
-	background-color: #343a40;
+	background-color: #44355b;
 }
 
 .op-85 {
@@ -379,13 +384,7 @@ a.socialIcon:hover,
 	opacity: .75;
 }
 
-.about i {
-	color: #0083bb;
-}
 
-.about a {
-	background-color: #fff;
-}
 .text-whitesmoke {
 	color: whitesmoke;
 }
@@ -433,4 +432,150 @@ a.socialIcon:hover,
   z-index: 9999;
   margin-left: 20px;
   margin-right: 20px;
+}
+.navbar a {
+	color: #44355b;
+}
+
+.btn-green {
+	background-color: #29bf89;
+	border-color: #29bf89;
+	color: #fff;
+}
+.btn-green:hover {
+    color: #fff;
+    background-color: #4FCA9E;
+    border-color: #3CC493;
+}
+
+.btn-green:focus,
+.btn-green.focus {
+    box-shadow: 0 0 0 0.2rem rgba(68, 53, 91, 0.5);
+}
+
+.btn-green.disabled,
+.btn-green:disabled {
+    color: #fff;
+    background-color: #4FCA9E;
+    border-color: #4FCA9E;
+}
+
+.btn-green:not(:disabled):not(.disabled):active,
+.btn-green:not(:disabled):not(.disabled).active,
+.show > .btn-green.dropdown-toggle {
+    color: #fff;
+    background-color: #29bf89;
+    border-color: #29bf89;
+}
+
+.btn-green:not(:disabled):not(.disabled):active:focus,
+.btn-green:not(:disabled):not(.disabled).active:focus,
+.show > .btn-green.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(41,191,137, 0.5);
+}
+.btn-purp {
+    color: #fff;
+    background-color: #44355b;
+    border-color: #44355b;
+}
+
+.btn-purp:hover {
+    color: #fff;
+    background-color: #554769;
+    border-color: #44355b;
+}
+
+.btn-purp:focus,
+.btn-purp.focus {
+    box-shadow: 0 0 0 0.2rem rgba(68, 53, 91, 0.5);
+}
+
+.btn-purp.disabled,
+.btn-purp:disabled {
+    color: #fff;
+    background-color: #554769;
+    border-color: #44355b;
+}
+
+.btn-purp:not(:disabled):not(.disabled):active,
+.btn-purp:not(:disabled):not(.disabled).active,
+.show > .btn-purp.dropdown-toggle {
+    color: #fff;
+    background-color: #005f88;
+    border-color: #00567b;
+}
+
+.btn-purp:not(:disabled):not(.disabled):active:focus,
+.btn-purp:not(:disabled):not(.disabled).active:focus,
+.show > .btn-purp.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(68, 53, 91, 0.5);
+}
+
+.bg-green-light {
+	background: rgba(41,191,137, 0.45);
+}
+
+.bg-purp-light {
+	background: rgba(68, 53, 91, 0.45);
+}
+
+.bg-purp-texture {
+	background: url('../img/purp-texture-bg.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.text-purp-dark {
+	color: #170312 !important;
+}
+.text-green{
+	color: #29bf89;
+}
+	
+
+a.pricing-table {
+	color:
+}
+
+a.pricing-table {
+	color:#fff !important;
+}
+
+.bg-purp {
+	background: #44355b;
+}
+
+#footer p{
+	font-size: .75rem;
+
+}
+
+#footer a{
+	color: #29bf89;
+	text-decoration: none;
+}
+#footer a:hover{
+	color: #4FCA9E;
+	text-decoration: none;
+}
+
+.footer-nav li{
+	font-size: .75rem;
+	line-height: normal;
+}
+
+#quote form:focus {
+	border-color: #29bf89;
+}
+
+#form-quote.form-control:focus !important{
+    color: #495057;
+    border-color: #29bf89;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(41, 191, 137, 0.75);
+}
+
+
+nav.bg-green {
+	background: #29bf89;
 }
