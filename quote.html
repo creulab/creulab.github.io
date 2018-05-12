@@ -19,15 +19,15 @@
 </head>
 
 <body>
-	<nav class="ease-in navbar fixed-top navbar-expand-lg navbar-default bg-white"> <img src="img/logo-new.jpg" class="logo-nav" alt="CreuLab, LLC.">
+	<nav class="ease-in navbar fixed-top navbar-expand-lg navbar-default bg-white"> <img src="img/logo-navbar.png" class="logo-nav" alt="">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
 				<li class="nav-item"> <a class="nav-link" href="about.html">About Us</a> </li>
 				<li class="nav-item"> <a class="nav-link" href="services.html">Services</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="http://lmurtle.wordpress.com">Blog </a></li>
+				<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
 			</ul>
 		</div>
 		<div class="nav-icons">
@@ -38,52 +38,48 @@
 			</ul>
 		</div>
 	</nav>
-	<section id="showcase" class="text-green pt-4 bg-white">
-		<div class="container vh-85">
-			<div class="row">
-			<div class="col-md-3">
-				
-			</div>
-				<div class="col-md-6 col-sm-12">
-					
-					<div class="card bg-purp mt-5 mb-3">
+	<!--- CONTENT -->
+	<section id="quote" class="bg-white">
+		<div class="container pt-5 vh-85">
+			<div class="row justify-content-md-center">
+				<div class="col col-md-auto">
+					<div class="card bg-purp mx-auto">
 						<div class="card-header bg-dark text-center">
-							<h4 class="text-white">Let's Get In Touch!</h4>
-							<p class="text-green card-subtitle">Drop us a quick message, and we'll be happy to get in touch!</p>
+							<h4 class="text-white">Get Started With A Quote</h4>
+							<p class="text-green card-subtitle">Tell us about your project, and we'll set up your FREE consultation!</p>
 						</div>
 						<div class="card-body">
 							<form id="form-quote" action="https://formspree.io/rmurtle@creulab.com" method="POST" class="form-group">
 								<input type="text" name="name" class="form-control" placeholder="Your Name" required>
 								<input type="text" name="email" class="form-control mt-3" placeholder="Your Email Address" required>
 								<input type="number" name="phone" class="form-control mt-3" placeholder="Your Phone Number" required>
-								<select name="messageType" id="inputProject" class="form-control mt-3">
-									<option selected disabled>Subject of Message</option>
-									<option>General</option>
-									<option>Collaboration Inquiry</option>
-									<option>Business Inquiry</option>
+								<select name="projectType" id="inputProject" class="form-control mt-3">
+									<option selected disabled>Type of Service:</option>
+									<option>Web Design & Development</option>
+									<option>Content & Marketing</option>
 								</select>
-								<textarea name="project details" class="form-control mt-3" id="messageDetails" rows="4" placeholder="Write your brief comment or question here!"></textarea>
-							<div class="form-check mt-3">
+								<textarea name="project details" class="form-control mt-3" id="projectDetails" rows="4" placeholder="Please briefly describe your project. Don't worry about being too specific, we will get into detail later."></textarea>
+								<select name="contact method" id="contactMetho" class="form-control mt-3" required>
+									<option selected disabled>Preferred Contact Method:</option>
+									<option>Email</option>
+									<option>Phone</option>
+								</select>
+							  <div class="form-check mt-3">
 								<input class="form-check-input" type="checkbox" id="acceptTerms">
 								<label class="form-check-label" for="acceptTerms">
 								  I accept CreuLab, LLC's <a href="privacypolicy.htm">Privacy Policy</a> and <a href="terms.htm">Terms & Conditions</a>
 								</label>
 							  </div>
-								<input type="submit" class="btn btn-green btn-block mt-3" value="Get in touch!">
+								<input type="submit" class="btn btn-green btn-block mt-3" value="Get Your Quote!">
 								</form>
 						</div>
 					</div>
-					
-				</div>
-				<div class="col-md-3">
-				
-				
-				
 				</div>
 			</div>
 		</div>
 	</section>
 	<hr class="styled">
+	<!--- /CONTENT -->
 	<section id="footer" class="bg-purp text-green">
 		<div class="container">
 			<div class="row">
@@ -92,6 +88,8 @@
 					<p class="p-0 m-0">CreuLab, LLC</p>
 					<p class="p-0 m-0">Gilmore City, Iowa</p>
 					<p class="p-0 m-0"><a href="mailto:contact@creulab.com">contact@creulab.com</a></p>
+					<p class="p-0 m-0"><a href="privacypolicy.htm">Privacy Policy</a></p>
+					<p class="p-0 m-0"><a href="terms.htm">Terms & Conditions</a></p>
 				</div>
 				<div class="col-4 pt-3 footer-nav">
 					<ul class="list-unstyled p-0 m-0">
@@ -100,7 +98,6 @@
 						<li><a href="services.html">Services</a></li>
 						<li><a href="http://lmurtle.wordpress.com">Blog</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						
 					</ul>
 				</div>
 			</div>
