@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://creulab.com/</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://creulab.com/index.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://creulab.com/about.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://creulab.com/services.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://creulab.com/contact.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://creulab.com/quote.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://creulab.com/portfolio.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://creulab.com/privacypolicy.htm</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://creulab.com/terms.htm</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://creulab.com/services/webdev.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://creulab.com/services/content.html</loc>
+  <lastmod>2018-05-30T18:29:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
